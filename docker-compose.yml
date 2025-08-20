@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   web:
-    image: cyprianho/webapp:v5
+    image: cyprianho/webapp-release:v1
     ports: ["80:1200"]
     environment:
       PORT: 1200
